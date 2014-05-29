@@ -20,7 +20,7 @@ function initialize() {
     //console.log(locations);
 
     var mapOptions = {
-      zoom: 3,
+      zoom: 4,
       minZoom: 3,
       backgroundColor: 'gray',
       disableDefaultUI: true,
@@ -30,7 +30,7 @@ function initialize() {
       },
       panControl: true,
       panControlOptions: {
-          position: google.maps.ControlPosition.BOTTOM_CENTER
+          position: google.maps.ControlPosition.RIGHT_CENTER
       },
       //streetViewControl: false,
       mapTypeId: google.maps.MapTypeId.ROADMAP
