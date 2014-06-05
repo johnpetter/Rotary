@@ -172,7 +172,8 @@ li{
 	width: 100px;
 	z-index: 1;
 	position: absolute;
-	bottom: 5%;
+	/*bottom: 5%;*/
+	top: 650px;
 	left: 50%;
 	margin-left: -50px;
 }
@@ -182,6 +183,7 @@ li{
 	z-index: 1;
 	position: absolute;
 	bottom: 5%;
+	/*top: 650px;*/
 	left: 50%;
 	margin-left: -50px;
 }
@@ -233,7 +235,7 @@ li{
         opacity: 0.5;
         position: absolute;
 		width: 100%; /*frame: width: 96%;*/
-		height: 100%;  /*frame: width: 96%;*/
+		height: 700px;  /*frame: width: 96%;*/
 		top: 0px;
 		left: 0%;  /*frame: width: 2%;*/
 		z-index: 1;
@@ -248,7 +250,7 @@ li{
         padding: 0px;*/
         position: absolute;
 		width: 100%; /*frame: width: 96%;*/
-		height: 100%;  /*frame: width: 96%;*/	
+		height: 700px;  /*frame: width: 96%;*/	
 		top: 0px;
 		left: 0%;  /*frame: width: 2%;*/
 		z-index: 0;
@@ -259,3 +261,32 @@ li{
 	font-size: 20px;
 }
 
+/* SECTIONS */
+
+.sectionWrap {
+	height: 700px;
+}
+
+#instagramWrap {
+	position: absolute;
+	top: 700px;
+	background-color: blue;
+	height: 700px;
+	width: 100%;
+}
+
+#twitterWrap {
+	position: absolute;
+	top: 1400px;
+	height: 700px;
+	width: 100%;
+	background-color: red;
+}
+
+#toplistWrap {
+	position: absolute;
+	top: 2100px;
+	height: 700px;
+	width: 100%;
+	background-color: yellow;
+}

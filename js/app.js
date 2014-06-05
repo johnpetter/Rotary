@@ -20,7 +20,7 @@ function initialize() {
     //console.log(locations);
 
     var mapOptions = {
-      zoom: 4,
+      zoom: 3,
       minZoom: 3,
       backgroundColor: 'gray',
       disableDefaultUI: true,
